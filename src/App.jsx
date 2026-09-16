@@ -1,0 +1,20 @@
+import { useState } from 'react'
+import heroImg from './assets/hero.png'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import './App.css'
+
+const App = () => {
+  return(
+    <main>
+      <div clasName = "pattern" />
+      <div className = "wrapper">
+        <header>
+          <h1>Find <span className='text-gradient'>Movies</span> You'll Enjoy Without The Hassle</h1>
+        </header>
+      </div>
+    </main>
+  )
+}
+
+export default App
